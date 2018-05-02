@@ -1,0 +1,10 @@
+body {
+    font-family: ubuntu;
+    font-size: 16px;
+    line-height: 1;
+}
+
+nav a {
+    min-width: 48px;
+    min-height: 48px;
+}
