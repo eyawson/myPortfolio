@@ -8,3 +8,64 @@ nav a {
     min-width: 48px;
     min-height: 48px;
 }
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 5px 5px 4px 0 rgba(13, 135, 235, 0.2);
+    line-height: 0;
+    background-color: deepskyblue;
+    background: linear-gradient(rgba(9, 135, 235, 1), rgba(9, 135, 235, 0.5));
+}
+
+.navage {
+    flex-shrink: 1;
+}
+
+.fa {
+    color: rgb(255, 255, 255);
+  }
+
+.logo {
+    max-width: 20%;
+}
+
+.awesome {
+    display: flex;
+    padding-top: 0.6em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+main {
+    padding-top: 1em;
+    border: 2px solid rgb(9, 135, 235);
+    box-shadow: 5px 5px 4px 0 rgba(13, 135, 235, 0.2);
+    height: 600px;
+}
+
+#portfolio {
+    background-color: deepskyblue;
+    box-shadow: 5px 5px 4px 0 rgba(13, 135, 235, 0.2);
+    height: 600px;
+}
+
+#contact {
+    height: 200px;
+    border: 2px solid rgb(9, 135, 235);
+    box-shadow: 5px 5px 4px 0 rgba(13, 135, 235, 0.2);
+}
+
+.space {
+    height: 0.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(9, 135, 235, 1);
+    box-shadow: 5px 5px 4px 0 rgba(13, 135, 235, 0.2);
+    height: 3em;
+    padding-top: 0.5em;
+}
